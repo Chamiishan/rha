@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="roadcondition.cynsore.cyient.com.cynsore.view.tasks.TaskListFragment"
+        android:label="fragment_task_list"
+        tools:layout="@layout/fragment_task_list" />
+    <fragment
+        android:id="@+id/taskDetailParent"
+        android:name="roadcondition.cynsore.cyient.com.cynsore.view.tasks.TaskDetailParent"
+        android:label="parent_task_detail"
+        tools:layout="@layout/parent_task_detail" />
+</navigation>

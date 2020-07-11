@@ -1,0 +1,86 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="roadcondition.cynsore.cyient.com.cynsore.view.tasks.TaskDetailParent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/lin_tab_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tab_layout"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:weightSum="10"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/ic_tab_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|start"
+            android:layout_weight="8"
+            app:tabIndicatorColor="@color/tab_indicator"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/tab_selected"
+            app:tabTextColor="@color/tab_unselected"></android.support.design.widget.TabLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ic_lin_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2"
+        app:layout_constraintBottom_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/ic_btn_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/start"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/ic_btn_done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_light"
+            android:text="Done"
+            android:textColor="@android:color/white" />
+
+        <!--<Button
+            android:id="@+id/ic_btn_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="End"
+            android:textColor="@android:color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />-->
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/ic_frame_taskdetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/ic_lin_bottom_bar"></FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

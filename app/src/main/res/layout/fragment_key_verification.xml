@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="roadcondition.cynsore.cyient.com.cynsore.view.login.LoginVerificationActivity">
+
+    <EditText
+        android:id="@+id/ic_edit_act_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/act_key"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ic_btn_veract_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_edit_act_key"
+        android:text="@string/verify_act_key" />
+</RelativeLayout>

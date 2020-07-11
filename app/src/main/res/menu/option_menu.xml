@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:orderInCategory="0"
+            android:title="@string/home"
+            app:showAsAction="ifRoom"></item>
+
+        <item
+            android:id="@+id/my_profile"
+            android:actionLayout="@layout/user_info"
+            android:icon="@drawable/user_info"
+            android:orderInCategory="1"
+            android:title="@string/user_info"
+            app:showAsAction="ifRoom"></item>
+
+        <item
+            android:id="@+id/mode"
+            android:icon="@drawable/mode"
+            android:orderInCategory="2"
+            android:title="@string/capture_data_mode"
+            app:showAsAction="ifRoom|withText"></item>
+
+        <item
+            android:id="@+id/upload_vid"
+            android:icon="@drawable/start"
+            android:orderInCategory="3"
+            android:title="@string/upload_vid"
+            app:actionLayout="@layout/vid_progress_view"
+            app:showAsAction="ifRoom|withText"></item>
+
+        <item
+            android:id="@+id/abt_us"
+            android:icon="@drawable/about"
+            android:orderInCategory="4"
+            android:title="@string/abt_us"
+            app:showAsAction="ifRoom"></item>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:orderInCategory="5"
+            android:title="@string/help"
+            app:showAsAction="ifRoom"></item>
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/dashboard"
+            android:orderInCategory="6"
+            android:title="@string/dashboard"
+            app:showAsAction="ifRoom"></item>
+
+        <item
+            android:id="@+id/opt_tasks"
+            android:icon="@drawable/tasks"
+            android:orderInCategory="7"
+            android:title="@string/tasks"
+            android:visible="false"
+            app:showAsAction="always"></item>
+
+        <item
+            android:id="@+id/opt_logout"
+            android:icon="@drawable/logout"
+            android:orderInCategory="8"
+            android:title="@string/logout"
+            app:showAsAction="ifRoom"></item>
+
+    </group>
+</menu>

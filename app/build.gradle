@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'kotlin-kapt'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'upload'
+            keyPassword 'android'
+            storeFile file('D:/RoadRunner/keystore/Cyientapk_rr.jks')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "roadcondition.cynsore.cyient.com.cynsore"
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        minSdkVersion 19
+    }
+    flavorDimensions "default"
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+        }
+    }
+    // Temporary fix until alpha10
+    packagingOptions {
+        exclude 'META-INF/proguard/androidx-annotations.pro'
+    }
+    dataBinding {
+        enabled = true
+    }
+    useLibrary 'org.apache.http.legacy'
+    productFlavors {
+        dongle {
+            applicationId 'roadcondition.cynsore.cyient.com.cynsore.dongle'
+            versionCode 1
+            versionName '1.0'
+            multiDexEnabled true
+        }
+        mobile {
+            applicationId 'roadcondition.cynsore.cyient.com.cynsore.mobile'
+            versionCode 1
+            versionName '1.0'
+            dimension "default"
+            multiDexEnabled true
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.android.gms:play-services-places:15.0.1'
+    implementation 'com.google.android.gms:play-services-base:15.0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    implementation 'com.google.maps:google-maps-services:0.2.5'
+    implementation 'android.arch.persistence.room:runtime:1.1.1'
+    implementation 'com.android.support:support-v4:28.0.0'
+    annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
+    implementation 'android.arch.lifecycle:compiler:1.1.1'
+    annotationProcessor 'android.arch.lifecycle:compiler:1.1.1'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.google.android.gms:play-services-gcm:15.0.1'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'android.arch.work:work-runtime:1.0.0-alpha09'
+    implementation 'com.google.guava:guava:27.0.1-android'
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
+    //library required for search
+//    implementation("com.tomtom.online:sdk-search:2.4194")
+    //library required to display map
+    implementation("com.tomtom.online:sdk-maps:2.4194")
+    //library required for routing
+//    implementation("com.tomtom.online:sdk-routing:2.4194")
+
+}
+//apply plugin: 'com.google.gms.google-services'

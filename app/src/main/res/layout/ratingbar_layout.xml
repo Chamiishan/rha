@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="38dp"
+            android:background="@color/text_black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+
+            <!--<TextView
+                android:id="@+id/rate1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/terrible"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Terrible"
+                android:visibility="gone"
+                android:textColor="@color/color_picker_border_color"/>-->
+
+            <TextView
+                android:id="@+id/rate2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/bad"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="okay"
+                android:textColor="@color/color_picker_border_color"/>
+
+            <TextView
+                android:id="@+id/rate3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/fine"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Better"
+                android:textColor="@color/color_picker_border_color"/>
+
+            <TextView
+                android:id="@+id/rate4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/good"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Good"
+                android:textColor="@color/color_picker_border_color"/>
+
+            <TextView
+                android:id="@+id/rate5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/great"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Great"
+                android:textColor="@color/color_picker_border_color"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone">
+        <!--need to add style with star images ones updated-->
+        <!---->
+
+
+      <!--  <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/customRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_gravity="center"
+            android:numStars="5"/>
+-->
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:textColor="#797979"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/cab_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Not at all \n likely"
+            android:textColor="#797979"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/cab_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:gravity="right"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:text="Extremely \n likely"
+            android:textColor="#797979"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

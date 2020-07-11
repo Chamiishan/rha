@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845802393489",
+    "firebase_url": "https://loginapp-1532062745152.firebaseio.com",
+    "project_id": "loginapp-1532062745152",
+    "storage_bucket": "loginapp-1532062745152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845802393489:android:851adf1cbeb6df66",
+        "android_client_info": {
+          "package_name": "roadcondition.cynsore.cyient.com.cynsore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845802393489-5sm8pmo2omm84r86g3ej6vk6cm93raat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "roadcondition.cynsore.cyient.com.cynsore",
+            "certificate_hash": "20e64343773bf3279ecf7e59b3ed685e9ffb49dc"
+          }
+        },
+        {
+          "client_id": "845802393489-0iilurgn3h0646083c08ii3vglhcfe6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCQ7K7dTLjkJFaHK0zLnjY6H7F6pw8gAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845802393489-0iilurgn3h0646083c08ii3vglhcfe6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

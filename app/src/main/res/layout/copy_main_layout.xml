@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/roadrunner"
+        android:paddingTop="15dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/custom_search_bg"/>
+        <fragment
+            android:id="@+id/map"
+            android:layout_weight="1"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="roadcondition.cynsore.cyient.com.cynsore.view.main.ParentActivity"/>
+        <WebView
+            android:id="@+id/tomtomMap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+        </WebView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/gMapBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/google_map_background_selector"/>
+            <ImageView
+                android:id="@+id/tMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:src="@drawable/tomtom_map_selector"/>
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/toggleButton"
+                android:padding="10dp" />
+
+        </LinearLayout>
+        <Chronometer
+            android:id="@+id/scan_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/txt_bg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/head_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/txt_bg"
+                android:padding="10dp"
+                android:text="HEAD\n00:00"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/speed_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/txt_bg"
+                android:padding="10dp"
+                android:text="SPEED\n00:00"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/bad_conditions_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Bad Road Conditions: "
+            android:gravity="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/txt_bg"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/mobile_et"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ems="15"
+                android:hint="Enter Phone Number"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:textSize="14sp"
+                android:focusableInTouchMode="true"
+                android:paddingRight="10dp"
+                android:background="@drawable/txt_bg"
+                android:inputType="phone"
+                />
+            <Button
+                android:id="@+id/upload_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:text="Upload File"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Road Health</string>
+    <string name="yes_text">Yes, I\'ll</string>
+    <string name="no_text">Later</string>
+    <string name="play_services_unavailable">"Google Play Services is not available: "</string>
+    <string name="no_internet">Please check your internet connection and try again</string>
+
+    <string name="summary_bad_text">Poor</string>
+    <string name="summary_normal_text">Fair</string>
+    <string name="summary_good_text">Good</string>
+    <string name="summary_perfect_text">Excellent</string>
+    <string name="summary_none_text">None</string>
+
+    <string name="capture">Capture</string>
+    <string name="ph_num">Phone Number</string>
+
+    <string name="exit">Exit</string>
+    <string name="retry">Retry?</string>
+    <string name="search">Search...</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="submit">Submit</string>
+    <string name="verify">Verify</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="end_trip">End Trip</string>
+    <string name="done">Done</string>
+
+    <string name="login_success">Login Successful</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="act_key">Activation Key</string>
+    <string name="verify_act_key">Verify Activation Key</string>
+    <string name="acc_expires">Your login activation key has been expired. Please contact admin team for account activation.</string>
+    <string name="verification_failed">Verification failed.</string>
+    <string name="logout">Logout</string>
+    <string name="tasks">Tasks</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="server_error">Server connection error.</string>
+    <string name="internet_not_avl">Internet is not available.</string>
+    <string name="play_services_na">Google play services is not available, or play services is not updated.</string>
+    <string name="home">Home</string>
+    <string name="user_info">User Info</string>
+    <string name="view_mode">View Mode</string>
+    <string name="capture_data_mode">Capture Data Mode</string>
+    <string name="abt_us">About Us</string>
+    <string name="help">Help</string>
+    <string name="feature_not_avl_view_mode">This feature is not available in view mode.</string>
+    <string name="feature_not_avl_capture_mode">This feature is not available in capture data mode.</string>
+
+    <string name="data_not_avl_for_route">Data is not available for this route.</string>
+    <string name="route_not_avl">Route is not available for this location.</string>
+    <string name="your_loc">Your Location</string>
+    <string name="upload_file">Upload</string>
+    <string name="upload_vid">Upload Video</string>
+    <string name="file_uploaded">File is Uploaded</string>
+    <string name="file_upload_err">File uploading error..</string>
+    <string name="file_uploading">Uploading File...</string>
+    <string name="small_file_size">File size is small.</string>
+    <string name="file_not_exists">File does not exists.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="err_cred_notmatch">Credentials does not match. Please enter correct credentials.</string>
+    <string name="err_password">Password can\'t be empty.</string>
+    <string name="err_passw_short">Password length should be more than 4.</string>
+    <string name="err_passw_notmatch">Password does not match.</string>
+    <string name="err_uname_empty">UserName can\'t be empty.</string>
+    <string name="cyient_login"><u>Cyient Login</u></string>
+    <string name="err_sensor_notavl">Sensor are not available.</string>
+    <string name="reg_email">Registered email</string>
+    <string name="ver_code">Verification Code</string>
+    <string name="err_invalid_email">Please enter a valid email address.</string>
+    <string name="err_empty_code">Please enter the verification code.</string>
+    <string name="email_verified">Email is verified.</string>
+    <string name="dashboard">Dashboard</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="loc_not_accurate">Location capturing is stopped as it is not accurate.</string>
+
+    <!-- Fragment Titles-->
+    <string name="capture_censor">Capture</string>
+    <string name="work_force_management">Work Force Management</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+</resources>

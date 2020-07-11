@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+    <!-- <color name="colorPrimary">#E91E63</color>
+     <color name="colorPrimaryDark">#880E4F</color>
+     <color name="colorAccent">#009688</color>
+     <color name="colorLightBg">#29009688</color>
+     <color name="colorPrimaryLight">#80E91E63</color>-->
+    <!-- blue-->
+    <!--   <color name="colorPrimary">#0099a7</color>
+       <color name="colorPrimaryDark">#006064</color>-->
+    <color name="colorPrimary">#273142</color>
+    <color name="colorPrimaryDark">#212A39</color>
+
+
+    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="colorAccent">#D8CEBD</color>
+    <color name="colorPrimaryText">#444444</color>
+    <color name="colorSecondaryText">#0099a7</color>
+    <color name="colorTextIcons">#FFFFFF</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorPrimaryTransparent">#292196F3</color>
+    <color name="colorPrimaryTransparentBtn">#802196F3</color>
+    <color name="colorPrimaryTransparent40">#402196F3</color>
+
+    <color name="colorGreenTransparent40">#90329C35</color>
+    <color name="colorRedTransparent40">#80DA0404</color>
+    <color name="colorOrangeTransparent40">#90f2af63</color>
+
+
+    <color name="colorOrange">#f2af63</color>
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorGreen">#329C35</color>
+    <color name="colorRed">#DA0404</color>
+    <color name="tranparent_color">#00000000</color>
+    <color name="tab_layout">#68696E</color>
+    <color name="action_bar">#00ACB3</color>
+    <color name="tab_unselected">#9EA1A5</color>
+    <color name="tab_selected">#ffffff</color>
+    <color name="tab_indicator">#ffffff</color>
+
+
+    <!-- uday -->
+    <color name="brick">#FF9933</color>
+    <color name="light_blue_text">#CCFFFF</color>
+    <color name="footer_text">#FFCCCC</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tranperent_white">#FFFFFF</color>
+    <color name="light_blue2">#CCFFFF</color>
+    <color name="light_cyient_color">#75009999</color>
+    <color name="very_light_cyient_color">#23009999</color>
+    <!--  -->
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="black_transparent">#CCFF0000</color>
+    <color name="login_create_login">#9E826B</color>
+    <color name="blue">#0000ff</color>
+    <color name="errorbg">#CCF15A29</color>
+    <color name="text_black">#99353B41</color>
+    <color name="text_light_grey">#9D9FA2</color>
+    <color name="text_blue">#3ABFEF</color>
+    <color name="text_terms_blue">#59FAE7</color>
+    <color name="c1">#90DEEA</color>
+    <color name="c2">#520D0D</color>
+    <color name="c3">#49494B</color>
+    <color name="c4">#DFDFE5</color>
+    <color name="red">#DA0404</color>
+    <color name="green">#329C35</color>
+    <color name="blue2">#1586C3</color>
+    <color name="yellow">#E0D20C</color>
+    <color name="darkblue">#2a85bb</color>
+    <color name="light_grey">#F2F1ED</color>
+    <color name="light_black">#525252</color>
+    <color name="light_white">#fafafa</color>
+    <color name="grey">#BFBEBB</color>
+    <color name="buttoncolor">#1D252C</color>
+    <color name="shadowcolor">#261687e6</color>
+    <color name="transparent">#B3000000</color>
+    <color name="search_grey">#d8d7d5</color>
+    <color name="light_blue">#0a1e21</color>
+    <color name="list_background">#efefef</color>
+    <color name="messagetext_background">#727272</color>
+    <color name="separator_color">#EEF3F8</color>
+    <color name="light_orange">#f2af63</color>
+    <color name="light_pink">#d5a4ee</color>
+    <color name="light_yellow">#eeba51</color>
+    <color name="thick_grey">#707372</color>
+    <color name="light_green">#CCFFCC</color>
+    <color name="cyient_color">#009999</color>
+    <color name="trans">#00000000</color>
+    <!-- QR Scanner Color Codes -->
+    <color name="transparent_black">#00000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c07FFF00</color>
+    <color name="result_image_border">#ff526F35</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c07FFF00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff367070</color>
+    <color name="viewfinder_laser">#ffFFFFFF</color>
+    <color name="viewfinder_mask">#60FFFFFF</color>
+    <color name="gray">#eeeeee</color>
+    <color name="edt_txt_border">#d6d6d6</color>
+    <color name="bg_color">#0099a7</color>
+
+    <color name="orange_dark">#E64A19</color>
+    <color name="blue_dark">#00537F</color>
+    <color name="calendar_yellow">#F5A623</color>
+    <color name="color_picker_border_color">#B0B0B0</color>
+    <color name="color_picker_background_color">#FFFFFF</color>
+    <color name="dropdown_divider_color">#E5E5E5</color>
+    <color name="dropdown_dark_divider_color">#C0C0C0</color>
+    <color name="bg_cyient0">#00E39E</color>
+    <color name="bg_cyient1">#00EBF2</color>
+    <color name="bg_cyient2">#DEE3E0</color>
+    <color name="bg_cyient3">#474D54</color>
+    <color name="bg_cyient4">#1F252C</color>
+
+    <color name="chart_bad_roads_color">#ff8c1515</color>
+    <color name="chart_normal_roads_color">#ffdeb245</color>
+    <color name="chart_good_roads_color">#ffb0c634</color>
+    <color name="chart_perfect_roads_color">#ff297e2b</color>
+    <color name="chart_none_roads_color">#b8b8b8</color>
+
+    <color name="tITANIUM_YELLOW">#FFEDE109</color>
+    <color name="cONGO_PINK">#FF7F7F</color>
+    <color name="mEDIUM_AQUAMARINE">#70F4B0</color>
+
+</resources>

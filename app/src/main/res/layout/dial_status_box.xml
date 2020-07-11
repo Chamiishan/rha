@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <include
+        android:id="@+id/lay_all"
+        layout="@layout/status_row" />
+
+    <include
+        android:id="@+id/lay_completed"
+        layout="@layout/status_row" />
+
+    <include
+        android:id="@+id/lay_wip"
+        layout="@layout/status_row" />
+
+    <include
+        android:id="@+id/lay_yts"
+        layout="@layout/status_row" />
+
+    <include
+        android:id="@+id/lay_hold"
+        layout="@layout/status_row" />
+
+    <include
+        android:id="@+id/lay_reject"
+        layout="@layout/status_row" />
+
+</LinearLayout>

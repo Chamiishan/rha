@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ic_txt_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/darker_gray"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/row_txt_size_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_colon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text=":"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/row_txt_size_large" />
+
+    <TextView
+        android:id="@+id/ic_txt_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/row_txt_size_large"
+        app:layout_constraintLeft_toRightOf="@id/txt_colon"
+        app:layout_constraintStart_toEndOf="@id/txt_colon" />
+
+</LinearLayout>
